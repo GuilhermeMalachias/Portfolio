@@ -17,6 +17,52 @@ ul > li{
     margin: 30px;
 }
 
+#html{
+    display: inline-block;
+    background-color: darkorange;
+    width: 105px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    margin: 10px;
+}
+
+#css{
+    display: inline-block;
+    background-color: darkorange;
+    width: 130px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#js{
+    display: inline-block;
+    background-color: darkorange;
+    width: 105px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    margin: 10px;
+}
+
+#en{
+    display: inline-block;
+    background-color: darkorange;
+    width: 80px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
 #projects{
     color: darkorange;
     text-align: center;
