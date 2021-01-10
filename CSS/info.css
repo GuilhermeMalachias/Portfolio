@@ -27,7 +27,7 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 #css{
@@ -39,7 +39,7 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
-    margin-left: 60px;
+    margin-left: 70px;
 }
 
 #js{
@@ -51,7 +51,7 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
-    margin-left: 90px;
+    margin-left: 100px;
 }
 
 #en{
@@ -63,7 +63,7 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 #njs{
@@ -229,8 +229,8 @@ footer{
     text-align: center;
     background-color: white;
     color: black;
-    width: 150px;
-    height: 30px;
+    width: 180px;
+    height: 40px;
     margin: auto;
     padding: 10px;
     font-size: 25px;
