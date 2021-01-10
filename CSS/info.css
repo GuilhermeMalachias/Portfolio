@@ -15,10 +15,11 @@ ul > li{
     color: darkorange;
     width: 300px;
     margin: 30px;
+    list-style: none;
 }
 
 #html{
-    display: inline-block;
+    
     background-color: darkorange;
     width: 105px;
     height: 5px;
@@ -26,10 +27,11 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
+    margin-left: 80px;
 }
 
 #css{
-    display: inline-block;
+    
     background-color: darkorange;
     width: 130px;
     height: 5px;
@@ -37,11 +39,11 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 #js{
-    display: inline-block;
+    
     background-color: darkorange;
     width: 105px;
     height: 5px;
@@ -49,10 +51,11 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
+    margin-left: 90px;
 }
 
 #en{
-    display: inline-block;
+    
     background-color: darkorange;
     width: 80px;
     height: 5px;
@@ -60,7 +63,19 @@ ul > li{
     position: absolute;
     top: 1px;
     margin: 10px;
-    margin-left: 30px;
+    margin-left: 70px;
+}
+
+#njs{
+    
+    background-color: darkorange;
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1px;
+    margin: 10px;
+    margin-left: 80px;
 }
 
 #projects{
@@ -151,7 +166,38 @@ ul > li{
     cursor: pointer;
 }
 
+.barbershop > h2{
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+    color: darkorange;
+}
+
+.barbershop > p{
+    color: white;
+    font-family: Ubuntu, Times, sans-serif;
+    font-size: 15px;
+}
+
+#gotobarber{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    transition-duration: 500ms;
+}
+
+#gotobarber:hover{
+    background-color: orange;
+    width: 85px;
+    height: 45px;
+    cursor: pointer;
+}
+
 footer{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -175,19 +221,28 @@ footer{
     font-family: Ubuntu, Times, sans-serif;
 }
 
+#github{
+    text-decoration: none;
+}
+
 #link{
+    text-align: center;
+    background-color: white;
+    color: black;
     width: 150px;
-    height: 50px;
-    margin: 10px;
+    height: 30px;
+    margin: auto;
     padding: 10px;
-    font-size: 20px;
-    margin-left: 140px;
-    transition-duration: 500ms;
+    font-size: 25px;
+    border-radius: 10px;
+    transition-duration: 800ms;
 }
 
 #link:hover{
     background-color: orange;
-    width: 155px;
-    height: 55px;
+    padding-left: 40px;
+    padding-right: 45px;
+    /*width: 155px;
+    height: 35px;*/
     cursor: pointer;
 }
