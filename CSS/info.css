@@ -1,8 +1,9 @@
 body{
-   background-color: rgb(48, 47, 47);
+    background-color: rgb(48, 47, 47);
 }
 
 #special{
+    text-align: center;
     color: white;
 }
 
@@ -12,15 +13,14 @@ ul > li{
     top: 10px;
     margin: 10px;
     font-size: 20px;
-    color: darkorange;
+    color: tomato;
     width: 300px;
     margin: 30px;
     list-style: none;
 }
 
 #html{
-    
-    background-color: darkorange;
+    background-color: black;
     width: 105px;
     height: 5px;
     border-radius: 20px;
@@ -32,7 +32,7 @@ ul > li{
 
 #css{
     
-    background-color: darkorange;
+    background-color: black;
     width: 130px;
     height: 5px;
     border-radius: 20px;
@@ -44,7 +44,7 @@ ul > li{
 
 #js{
     
-    background-color: darkorange;
+    background-color: black;
     width: 105px;
     height: 5px;
     border-radius: 20px;
@@ -56,7 +56,7 @@ ul > li{
 
 #en{
     
-    background-color: darkorange;
+    background-color: black;
     width: 80px;
     height: 5px;
     border-radius: 20px;
@@ -66,39 +66,8 @@ ul > li{
     margin-left: 80px;
 }
 
-#njs{
-    
-    background-color: darkorange;
-    width: 5px;
-    height: 5px;
-    border-radius: 20px;
-    position: absolute;
-    top: 1px;
-    margin: 10px;
-    margin-left: 80px;
-}
-
 #projects{
-    color: darkorange;
-    text-align: center;
-
-}
-
-#projects{
-    color: darkorange;
-    text-align: center;
-
-}
-
-#projects{
-    color: darkorange;
-    text-align: center;
-
-}
-
-
-#projects{
-    color: darkorange;
+    color: white;
     text-align: center;
 
 }
@@ -112,7 +81,7 @@ ul > li{
 
 .content > h3{
     font-size: 25px;
-    color: darkorange;
+    color: tomato;
 }
 
 .content > p{
@@ -132,7 +101,6 @@ ul > li{
 }
 
 .buttonfor:hover{
-    background-color: orange;
     width: 85px;
     height: 45px;
     cursor: pointer;
@@ -140,7 +108,7 @@ ul > li{
 
 .churrascometro > h2{
     font-size: 30px;
-    color: darkorange;
+    color: tomato;
 }
 
 .churrascometro > p{
@@ -160,7 +128,6 @@ ul > li{
 }
 
 #goto:hover{
-    background-color: orange;
     width: 85px;
     height: 45px;
     cursor: pointer;
@@ -170,7 +137,7 @@ ul > li{
     position: relative;
     top: 5px;
     font-size: 30px;
-    color: darkorange;
+    color: tomato;
 }
 
 .barbershop > p{
@@ -190,7 +157,6 @@ ul > li{
 }
 
 #gotobarber:hover{
-    background-color: orange;
     width: 85px;
     height: 45px;
     cursor: pointer;
@@ -239,7 +205,6 @@ footer{
 }
 
 #link:hover{
-    background-color: orange;
     padding-left: 40px;
     padding-right: 45px;
     /*width: 155px;

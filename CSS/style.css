@@ -36,7 +36,6 @@ header{
 }
 
 #open:hover{
-    background-color: orange;
     width: 155px;
     height: 55px;
     cursor: pointer;
