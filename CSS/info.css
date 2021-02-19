@@ -7,69 +7,28 @@ body{
     color: white;
 }
 
-ul > li{
-    position: relative;
-    right: 30px;
-    top: 10px;
-    margin: 10px;
+#box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#exp1 {
     font-size: 20px;
     color: tomato;
-    width: 300px;
-    margin: 30px;
     list-style: none;
 }
 
-#html{
-    background-color: black;
-    width: 105px;
-    height: 5px;
-    border-radius: 20px;
-    position: absolute;
-    top: 1px;
-    margin: 10px;
-    margin-left: 90px;
+#exp2 {
+    font-size: 20px;
+    color: tomato;
+    list-style: none;
 }
 
-#css{
-    
-    background-color: black;
-    width: 130px;
-    height: 5px;
-    border-radius: 20px;
-    position: absolute;
-    top: 1px;
-    margin: 10px;
-    margin-left: 70px;
-}
-
-#js{
-    
-    background-color: black;
-    width: 105px;
-    height: 5px;
-    border-radius: 20px;
-    position: absolute;
-    top: 1px;
-    margin: 10px;
-    margin-left: 100px;
-}
-
-#en{
-    
-    background-color: black;
-    width: 80px;
-    height: 5px;
-    border-radius: 20px;
-    position: absolute;
-    top: 1px;
-    margin: 10px;
-    margin-left: 80px;
-}
-
-#projects{
-    color: white;
+#projects {
     text-align: center;
-
+    color: white;
 }
 
 .works{
@@ -101,6 +60,7 @@ ul > li{
 }
 
 .buttonfor:hover{
+    background: tomato;
     width: 85px;
     height: 45px;
     cursor: pointer;
@@ -128,6 +88,7 @@ ul > li{
 }
 
 #goto:hover{
+    background: tomato;
     width: 85px;
     height: 45px;
     cursor: pointer;
@@ -157,6 +118,7 @@ ul > li{
 }
 
 #gotobarber:hover{
+    background: tomato;
     width: 85px;
     height: 45px;
     cursor: pointer;
@@ -177,7 +139,7 @@ footer{
 
 #about{
     text-align: center;
-    color: white;
+    color: tomato;
 }
 
 #myinfo{
@@ -202,9 +164,13 @@ footer{
     font-size: 25px;
     border-radius: 10px;
     transition-duration: 800ms;
+    
+    position: relative;
+    bottom: 10px;
 }
 
 #link:hover{
+    background: tomato;
     padding-left: 40px;
     padding-right: 45px;
     /*width: 155px;
