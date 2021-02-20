@@ -166,7 +166,9 @@ footer{
     transition-duration: 800ms;
     
     position: relative;
-    bottom: 10px;
+    top: 10px;
+
+    margin-bottom: 50px;
 }
 
 #link:hover{
